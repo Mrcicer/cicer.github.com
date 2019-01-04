@@ -6,3 +6,8 @@ theme: jekyll-theme-architect
 
 gems:
   - jekyll-mentions
+  
+deploy:
+  type: git
+  repository: git@github.com:mrcicer/mrcicer.github.io.git
+  branch: master
